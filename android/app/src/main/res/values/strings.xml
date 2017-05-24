@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">mYkAt1e3CCLbawFCUratqpPb3Gwz4y5tq4Alm</string>
     <string name="app_name">TestMobileCenter</string>
 </resources>
