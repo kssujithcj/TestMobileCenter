@@ -15,6 +15,9 @@ import {
 
 import Analytics from 'mobile-center-analytics'
 import Crashes from 'mobile-center-crashes'
+import codePush from 'react-native-code-push'
+
+let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
 
 export default class TestMobileCenter extends Component {
 
@@ -74,5 +77,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
+TestMobileCenter = codePush(codePushOptions)(TestMobileCenter);
 
 AppRegistry.registerComponent('TestMobileCenter', () => TestMobileCenter);

@@ -1,4 +1,12 @@
 PODS:
+  - CodePush (2.0.3):
+    - CodePush/Core (= 2.0.3)
+    - CodePush/SSZipArchive (= 2.0.3)
+    - React
+  - CodePush/Core (2.0.3):
+    - React
+  - CodePush/SSZipArchive (2.0.3):
+    - React
   - MobileCenter (0.6.1):
     - MobileCenter/MobileCenterAnalytics (= 0.6.1)
     - MobileCenter/MobileCenterCrashes (= 0.6.1)
@@ -10,17 +18,49 @@ PODS:
     - MobileCenter/MobileCenter
   - MobileCenter/MobileCenterDistribute (0.6.1):
     - MobileCenter/MobileCenter
+  - React (0.44.0):
+    - React/Core (= 0.44.0)
+  - React/Core (0.44.0):
+    - React/cxxreact
+    - Yoga (= 0.44.0.React)
+  - React/cxxreact (0.44.0):
+    - React/jschelpers
+  - React/jschelpers (0.44.0)
+  - React/RCTNetwork (0.44.0):
+    - React/Core
+  - React/RCTText (0.44.0):
+    - React/Core
+  - React/RCTWebSocket (0.44.0):
+    - React/Core
   - RNMobileCenter (0.4.0):
     - MobileCenter (~> 0.6.0)
+  - Yoga (0.44.0.React)
 
 DEPENDENCIES:
+  - CodePush (from `../node_modules/react-native-code-push`)
   - MobileCenter (~> 0.6.0)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
   - RNMobileCenter (~> 0.4.0)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  CodePush:
+    :path: ../node_modules/react-native-code-push
+  React:
+    :path: ../node_modules/react-native
+  Yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
 
 SPEC CHECKSUMS:
+  CodePush: 2e2ffb214ddd52d13ab67e134945811f8ba316f2
   MobileCenter: a0c2ac2ab187d485ffab42463638dbb7606c4019
+  React: d2077cc20245ccdc8bfe1fdc002f2003318ae8d8
   RNMobileCenter: e7f446e0f7d702d52f74291fef6c834bb29605dd
+  Yoga: a92a5d8e128905bf9f29c82f870192a6e873dd98
 
-PODFILE CHECKSUM: 5641eca9a1f4ffd5652bf9583d32bab6729f6e6e
+PODFILE CHECKSUM: a5c676e0599b486b78e8672a1530550e22b7267e
 
 COCOAPODS: 1.2.1
