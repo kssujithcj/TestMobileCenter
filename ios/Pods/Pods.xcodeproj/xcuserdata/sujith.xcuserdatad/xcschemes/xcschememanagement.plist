@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MobileCenter-MobileCenterDistributeResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TestMobileCenter-tvOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TestMobileCenter-tvOSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TestMobileCenter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TestMobileCenterTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1799848ADCAA6F5E013B71DED73EA620</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35C0FDEB6348D853A717AE3774C29863</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54380B213F8E824A24607B0140D06999</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8621B93F2C8CF2085F57AC6E353B9F44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F93277103A1CADD4DA34A5E15FC1AF1A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

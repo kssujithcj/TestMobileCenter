@@ -19,7 +19,7 @@ import Crashes from 'mobile-center-crashes'
 export default class TestMobileCenter extends Component {
 
   sendEvent(){
-    Analytics.trackEvent('Clicked analytics biutton', {
+    Analytics.trackEvent('Clicked analytics button', {
       prop: new Date().getSeconds() 
     })
   }
